@@ -1,5 +1,5 @@
 const TeleBot = require('telebot');
-const keys = require('./api_keys/api_key.json.js');
+const keys = require('./api_keys/api_key.json');
 const buttons = require('./functions/button_selection')
 const image = require('./functions/image_process')
 const commands = require('./functions/command_process')
