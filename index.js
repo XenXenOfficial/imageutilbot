@@ -27,6 +27,7 @@ bot.on(/\d+x\d+|\d+/, async (msg)=>{
 })
 
 process.on('unhandledRejection', error => {
+    console.log(error)
 });
   
 bot.start()
